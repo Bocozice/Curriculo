@@ -4,12 +4,12 @@ function Contacts() {
       <h2>Contatos</h2>
       <ul>
         <li>
-          <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Bocozice" target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
         </li>
         <li>
-          <a href="">Instagram</a>
+          <a href="https://www.instagram.com/vinii__gabriel?igsh=aHR0Mm40bHViNHBu" target="_blank" rel="noopener noreferrer">Instagram</a>
         </li>
         <li>
           <h6>Telefone: (13) 99117-8228</h6>
