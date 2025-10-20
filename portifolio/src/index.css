@@ -1,0 +1,116 @@
+:root {
+  --color-background: #ffffff;
+  --color-text-main: #242424;
+  --color-text-light: #555555;
+  --color-accent: #0047AB;
+  --color-accent-hover: #002D6E;
+  --color-card-background: #f0f0f0;
+  --color-card-border: #cccccc;
+
+  font-family: 'Segoe UI', 'system-ui', Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  color-scheme: light;
+  color: var(--color-text-main);
+  background-color: var(--color-background);
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text-main);
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-text-main);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+a {
+  font-weight: 500;
+  color: var(--color-accent);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--color-accent-hover);
+  text-decoration: underline;
+}
+
+.card, .border, .rounded, .habilidade-box {
+  background: var(--color-card-background) !important;
+  border: 1px solid var(--color-card-border) !important;
+  border-radius: 6px !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  color: var(--color-text-main) !important;
+}
+
+.habilidade-box {
+  color: var(--color-accent) !important;
+  font-weight: 500;
+  padding: 0.4em 0.8em;
+  display: inline-block;
+}
+
+.habilidade-box:hover {
+  background: var(--color-card-border) !important;
+  color: var(--color-accent-hover) !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid var(--color-accent);
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--color-accent);
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.25s, border-color 0.25s;
+}
+button:hover {
+  background-color: var(--color-accent-hover);
+  border-color: var(--color-accent-hover);
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto var(--color-accent);
+}
+
+body.light-theme {
+  background: var(--color-background) !important;
+  color: var(--color-text-main) !important;
+}
+
+body.dark-theme {
+  --color-background: #121212;
+  --color-text-main: #f0f0f0;
+  --color-text-light: #aaaaaa;
+  --color-card-background: #1e1e1e;
+  --color-card-border: #444444;
+
+  color-scheme: dark;
+  background: var(--color-background) !important;
+  color: var(--color-text-main) !important;
+}
+
+body.dark-theme h1,
+body.dark-theme h2,
+body.dark-theme h3 {
+    color: var(--color-text-main);
+}
