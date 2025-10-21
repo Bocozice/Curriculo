@@ -12,7 +12,7 @@ function AboutMe() {
         <p>Meu nome é Vinicius Gabriel Pereira Cruz e tenho 15 anos. 
         Sou um estudante dedicado e fascinado por tecnologia, atualmente cursando Desenvolvimento de Sistemas na ETEC de Praia Grande. 
         Tenho habilidades em HTML, CSS, JavaScript, React, Bootstrap, Git e GitHub, além de saber o básico de Node.js e SQL. 
-        Tenho um nível avançado devinglês e possuo competências em comunicação, trabalho em equipe, resolução de problemas e adaptabilidade.
+        Tenho um nível avançado de inglês e possuo competências em comunicação, trabalho em equipe, resolução de problemas e adaptabilidade.
         Estou sempre buscando aprender e crescer profissionalmente na área de desenvolvimento de sistemas.
         Futuramente quero passar no vestibular da USP e fazer Engenharia de Software.
         </p>
